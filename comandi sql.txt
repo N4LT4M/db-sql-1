@@ -1,0 +1,11 @@
+﻿comandi sql
+
+
+select * from students where year(date_of_birth) = 1990;
+select * from courses where degree_id = 10;
+select * from students where year(date_of_birth) <= 1993;
+select * from courses where `year` = 1 and period = 'I semestre';
+select * from exams where `date` = '2020-06-20' and `hour` > '14:00:00'
+select * from degrees where level = 'magistrale';
+select * from departments;
+select * from teachers where phone is null;
